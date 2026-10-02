@@ -1,0 +1,11 @@
+{
+  "name": "review-ghost",
+  "version": "0.1.0",
+  "description": "Attaches a file's unresolved GitHub PR review threads to the model's Read and Edit results, so review comments get fixed in the file it is already touching",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Chris Dwyer",
+    "url": "https://github.com/ccdwyer"
+  },
+  "repository": "https://github.com/ccdwyer/review-ghost"
+}

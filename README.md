@@ -1,5 +1,8 @@
 # Review Ghost 👻
 
+![Review Ghost demo](media/demo.gif)
+
+
 A Claude Code mod that brings your PR's unresolved review comments to the file Claude is already working in.
 
 When Claude **Reads** or **Edits** a file in a git repo whose current branch has an open GitHub PR, it receives that file's unresolved review threads along with the tool result: path, line, author, comment text and a link. Each thread is shown once per turn, and again if a new reply arrives. Comments are quoted as data, so a reviewer's text can't steer the model.

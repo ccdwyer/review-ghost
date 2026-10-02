@@ -28,3 +28,20 @@ Requires the [GitHub CLI](https://cli.github.com/) (`gh auth login`).
 claude plugin validate .
 claude plugin test .
 ```
+
+## What it hooks
+
+Events this mod hooks, as `claude plugin validate` reads the module:
+
+- `session.start`
+- `turn.start`
+- `command.run{command=ghost}`
+- `tool.call{tool=Read|Edit|Write}`
+
+Engine calls it makes: `$.clock.now (via prFor)`, `$.command.register`, `$.process.run`, `$.state.get`, `$.state.set`, `$.ui.status`.
+
+A `tool.call` hook sits in the middle of every tool call: it can see the call, refuse it, or add context to its result. This mod uses that only for the behaviour described above.
+
+## License
+
+MIT

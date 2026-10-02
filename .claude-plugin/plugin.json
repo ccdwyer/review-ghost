@@ -8,5 +8,9 @@
     "url": "https://github.com/ccdwyer"
   },
   "repository": "https://github.com/ccdwyer/review-ghost",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/ccdwyer/review-ghost",
+  "supportUrl": "https://github.com/ccdwyer/review-ghost/issues",
+  "documentationUrl": "https://github.com/ccdwyer/review-ghost#readme",
+  "privacyPolicyUrl": "https://github.com/ccdwyer/review-ghost/blob/main/PRIVACY.md"
 }
